@@ -1,0 +1,107 @@
+	/*      MAIN STYLE      */
+
+@import "reset.css";
+
+/*      DEFAULT     */
+
+body{background: url("../image/background-geral.jpg") center no-repeat fixed;}
+.conteiner{width:1000px; margin:0px auto 0px auto;}
+#clear{clear: both;}
+#section-title{width:300px; height:67px; background:#38474a; margin:0px auto 90px auto; text-align: center;}
+#section-title p{padding-top:20px; margin-top:100px;}
+
+/*      NAV         */
+
+nav{width:100px; height: 32px; position:fixed; background: #38474a; text-align: center; margin:10px 0px 0px 10px; z-index: 10; overflow:hidden;}
+nav #logo-menu{margin:10px 10px 10px 10px}
+nav #icon-menu{position:absolute; width: 100px; height:12px; padding:10px 0px 10px 0px; background:#38474a; margin-top:0px; cursor:pointer;}
+nav ul li{width:100%; height:23px; color: #ffffff;border-top: 2px solid #38474a;}
+nav ul li:hover{background:#f0c514; color:#38474a; border-top: 2px solid #f29c1e;}
+nav ul li p{padding:5px;}
+
+/*      HEADER      */
+
+header{width:100%; height:655px; background: url("../image/bg-header.jpg") center no-repeat;}
+header #logo{width:141px; margin:0px auto 20px auto; padding-top:130px; display: block;}
+
+#webtext-content{width:428px; margin:10px auto 0 auto;}
+#line-left{width:90px; height:2px; border-top:solid #ffffff 1px; border-left:solid #ffffff 1px; margin:15px 90px 0 0; float: left; }
+#line-right{width:90px; height:2px; border-top:solid #ffffff 1px; border-right:solid #ffffff 1px; margin:15px 0 0 90px; float: left;}
+#text-web{float:left;}
+
+#icon-content{width:100%; margin-top:20px;}
+#icon-designer{width:150px; text-align: center; float:left; margin-left:21%;}
+#icon-designer p{margin-bottom:10px;}
+#icon-developer{width:150px; text-align: center; float:right; margin-right:21%;}
+#icon-developer p{margin-bottom:10px;}
+	
+/*      PORTFOLIO       */
+
+#portfolio{width:100%; float:left;}
+#portfolio-box{width:300px; height:300px; margin:10px 16px 10px 16px; background:#38474a; float:left;}
+#portfolio-info{width:300px; height:300px; position:absolute;}
+#portfolio-background{width:300px; height:300px; background:#000000; opacity: 0.7; position:absolute;}
+#portfolio-info-title{width:100%; text-align: center; margin-top:130px;}
+#portfolio-bt-plus{width:63px; height:63px; position:absolute; margin:237px 0px 0px 237px;}
+#portfolio-info-text{margin-top:20px}
+
+/*      HABILIDADES     */
+
+#habilidade{width:100%; height:667px; float:left; margin-top:90px; background:#c1c1c1;background: url("../image/bg-habilidade.jpg") center no-repeat;}
+#habilidade-text{width:384px; margin:0px auto 50px auto;}
+#habilidade-text2{width:464px; margin:0px auto 50px auto;}
+#habilidade-box{width:464px; float:left; text-align: center;}
+#habilidade-subtitle{margin-bottom:20px;}
+
+/*    CONTATO   */
+
+#contato{width:100%; float:left;}
+#contato-text{width:464px; margin:0px auto 50px auto;}
+#contato-phone{width:100%; margin-bottom:50px;}
+#contato form{width:786px; margin:0px auto 100px auto;}
+#contato form input[type=text], #contato form input[type=email],#contato form input[type=tel]{background:none; border:3px solid #38474a; width:780px; height:67px; margin:0px auto 20px auto;}
+#contato form textarea{background:none; border:3px solid #38474a; width:740px; height:200px; padding:20px;}
+#contato form input[type=button]{width:140px; height:67px; background:#26af5f; border:none; margin-top:20px; float:right;}
+
+/*    FOOTER    */
+
+footer{width:100%; height:200px; float:left; background:#38474a; text-align: center;}
+#logo-footer{width:64px; margin:50px 0px 10px 0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*      STYLE FONT      */
+
+@font-face {
+    font-family: MuseoSansCyrl100;
+    src: url(font/MuseoSansCyrl.otf);
+}
+
+@font-face {
+    font-family: MuseoSansCyrl900;
+    src: url(font/MuseoSansCyrl_3.otf);
+}
+
+.text-default{font-family: MuseoSansCyrl100; font-size: 14px; color:#ffffff; text-align: center;}
+.text-default2{font-family: MuseoSansCyrl100; font-size: 16px; color:#ffffff; text-align: center;}
+.text-default-blue{font-family: MuseoSansCyrl100; font-size: 16px; color:#38474a; text-align: center;}
+.text-menu{font-family: MuseoSansCyrl100; font-size: 14px;}
+.text-main-yellow{font-family: MuseoSansCyrl900; font-size: 40px; color:#f0c514; text-align: center;}
+.text-main-white{font-family: MuseoSansCyrl900; font-size: 30px; color:#ffffff; text-align: center;}
+.text-main-white-mini{font-family: MuseoSansCyrl900; font-size: 25px; color:#ffffff; text-align: center;}
+.text-main-white-mini-blue{font-family: MuseoSansCyrl900; font-size: 25px; color:#38474a; text-align: center;}
+.text-section{font-family: MuseoSansCyrl900; font-size: 30px; color:#f0c514; text-align: center;}
+.text-placeholder{font-family: MuseoSansCyrl100; font-size: 25px; color:#38474a; text-align: center;}
+.text-footer{font-family: MuseoSansCyrl100; font-size: 13px; color:#ffffff; text-align: center;}
