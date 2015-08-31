@@ -79,6 +79,16 @@
 
         <section id="portfolio">
 
+        <div id="portfolio-window-background"></div>
+        <div class="conteiner">
+            
+            <div id="portfolio-window">
+                <div id="portfolio-window-view"></div>
+                <div id="portfolio-window-info"></div>
+            </div>
+
+        </div>
+
             <div class="conteiner">
 
                 <div id="section-title"><p class="text-section">PORTFÓLIO</p></div>

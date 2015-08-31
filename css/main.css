@@ -45,7 +45,13 @@ header #logo{width:141px; margin:0px auto 20px auto; padding-top:130px; display:
 .portfolio-background{width:300px; height:300px; background:#000000; opacity: 0.8; position: absolute;}
 #portfolio-info-title{width:100%; text-align: center; margin-top:130px;}
 #portfolio-bt-plus{width:63px; height:63px; position:absolute; margin:237px 0px 0px 237px;}
+#portfolio-bt-plus img{cursor:pointer;}
 #portfolio-info-text{margin-top:20px}
+#portfolio-window-background{width:100%; height:100%; opacity: 0.5; position:fixed; top: 0px; z-index: 5; background: #ffffff; display: none;}
+#portfolio-window{width:1000px; position:fixed; top: 20px; z-index: 5; display: none;}
+#portfolio-window-view{width:632px; height:300px; float:left; background:#c1c1c1; margin-left:16px;}
+#portfolio-window-info{width:300px; height:300px; margin-left:32px; float:left; background:#38474a;}
+
 
 /*      HABILIDADES     */
 
