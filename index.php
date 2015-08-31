@@ -17,22 +17,23 @@
     </script>
 
     <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/portfoliobox.js"></script>
 
 </head>
 <body>
 
-    <header>
+    <header id="index">
 
         <div class="conteiner">
 
             <nav>
 
                 <div id="icon-menu"><img src="image/icon-manu.png"></div>
-                <img src="image/logo-rafaelima-mini.png" id="logo-menu">
+                <a href="#index" id="bttopheader"><img src="image/logo-rafaelima-mini.png" id="logo-menu"></a>
                 <ul>
-                    <li><p class="text-menu">PORTFÓLIO</p></li>
-                    <li><p class="text-menu">HABILIDADES</p></li>
-                    <li><p class="text-menu">CONTATO</p></li>
+                    <li><a href="#portfolio" class="text-menu" id="btportfolio">PORTFÓLIO</a></li>
+                    <li><a href="#habilidade" class="text-menu" id="bthabilidade">HABILIDADES</a></li>
+                    <li><a href="#contato" class="text-menu" id="btcontato">CONTATO</a></li>
                 </ul>
 
             </nav>
@@ -87,18 +88,18 @@
 					for($i = 0;$i < 6;$i++){				
 				?>
 				
-                <div id="portfolio-box">
+                <div class="portfolio-box">
 					
-					<div id="portfolio-conteiner">
+					<div class="portfolio-conteiner">
 					
-					  <div id="portfolio-background"></div>
+                      <div class="portfolio-background"></div>
 
-					  <div id="portfolio-info">
+					  <div class="portfolio-info">
 						<div id="portfolio-bt-plus"><img src="image/icon-plus.png"></div>
 						<div id="portfolio-info-title"><p class="text-section">VOLEYBAL</p></div>
 						<div id="portfolio-info-text"><p class="text-default">JavaScript . PHP . WordPress</p></div>
 					  </div>
-					  
+
 					</div>
                   <img src="image/site1.jpg">
 
@@ -152,18 +153,19 @@
 
                 <div id="contato-text"><p class="text-default-blue">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor.</div>
 
-                <div id="contato-phone"><p class="text-main-white-mini-blue">61 8612-1002</p></div>
+                <div id="contato-box">
 
-                <form id="contato-formulario" method="post" action="">
+                    <img src="image/celular-icon.png" id="icon-celular">
+                    <p class="text-main-white-mini-blue">61 8612-1002</p>
 
-                    <input type="text" id="nome-form" placeholder="NOME" class="text-placeholder">
-                    <input type="email" id="email-form" placeholder="E-MAIL" class="text-placeholder">
-                    <input type="tel" id="telefone-form" placeholder="TELEFONE" class="text-placeholder">
-                    <textarea id="mensagem-form" placeholder="MENSAGEM"  class="text-placeholder"></textarea>
-                    <input type="button" id="enviar-form" value="ENVIAR" class="text-section">
-                    <div id="clear"></div>
-                    
-                </form>
+                </div>
+
+                <div id="contato-box">
+
+                    <img src="image/email-icon.png" id="icon-email">
+                    <p class="text-main-white-mini-blue">rafadexter@gmail.com</p>
+
+                </div>
 
           </div>
 
@@ -172,7 +174,7 @@
     </main>
 
     <footer>
-        <img src="image/logo-rafaelima-mini.png" id="logo-footer"
+        <a href="#index" id="btfooter"><img src="image/logo-rafaelima-mini.png" id="logo-footer"></a>
         <section id="copyright"><p class="text-footer">RAFAELIMA 2015 © COPYRIGHT</p></section>
     </footer>
 

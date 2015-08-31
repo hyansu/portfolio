@@ -1,38 +1,44 @@
 /*		MENU		*/
 $(document).ready(function () {
-
-	var swit = true;
-
-	if(swit){
 	
-		$("#icon-menu").click(function(){
+	var trocar = true;
+
+	$("#icon-menu").click(function(){
+
+		if(trocar){
 
 			$("nav").animate({
 				"height":"200px"
-			},300);
+				},300
+			);
 
 			$("#icon-menu").animate({
 				"margin-top":"167px"
-			},300);
-		});
+				},300
+			);
 
-		swit = false;
-		
-	}
+			trocar = false;
 
-	if(!swit){
-
-		$("#icon-menu").click(function(){
+		}else{
 
 			$("nav").animate({
 				"height":"32px"
-			},300);
+				},300
+			);
 
 			$("#icon-menu").animate({
 				"margin-top":"0px"
-			},300);
-		});
+				},300
+			);
+			trocar = true;
 
-		swit = true;
-	}
+		}
+
+	});
+
+	$("#bttopheader,#btportfolio,#bthabilidade,#btcontato,#btfooter").click(function(event){        
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+   });
+
 });
