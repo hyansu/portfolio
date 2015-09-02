@@ -12,7 +12,8 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            $("html").niceScroll();
+            /*$("html").niceScroll();*/
+            $("#portfolio-window").niceScroll();
         });
     </script>
 
@@ -83,8 +84,27 @@
         <div class="conteiner">
             
             <div id="portfolio-window">
-                <div id="portfolio-window-view"></div>
-                <div id="portfolio-window-info"></div>
+
+                <div id="portfolio-window-view">
+                    <img src="image/site-teste.jpg">
+                    <img src="image/site-teste.jpg">
+                </div>
+
+                <div id="portfolio-window-info">
+
+                    <div id="window-info-title">
+                    <p class="text-section-window">ZOOM FESTAS</p>
+                    </div>
+                    <br>
+                    <div id="window-info-text">
+                    <p class="text-default-blue">WordPress . Php . MySQL . Photoshop Layout</p>
+                    <br>
+                    <p class="text-default-blue"><a href="" class="text-default-blue">www.festanazoom.com.br</a></p>
+                    </div>
+
+                </div>
+
+                <div id="clear"></div>
             </div>
 
         </div>
@@ -92,11 +112,6 @@
             <div class="conteiner">
 
                 <div id="section-title"><p class="text-section">PORTFÓLIO</p></div>
-				
-				<?php
-				
-					for($i = 0;$i < 6;$i++){				
-				?>
 				
                 <div class="portfolio-box">
 					
@@ -114,9 +129,24 @@
                   <img src="image/site1.jpg">
 
                 </div>
-				
-				<?php } ?>
 
+                <div class="portfolio-box">
+                    
+                    <div class="portfolio-conteiner">
+                    
+                      <div class="portfolio-background"></div>
+
+                      <div class="portfolio-info">
+                        <div id="portfolio-bt-plus"><img src="image/icon-plus.png"></div>
+                        <div id="portfolio-info-title"><p class="text-section">ZOOM</p></div>
+                        <div id="portfolio-info-text"><p class="text-default">JavaScript . PHP . WordPress</p></div>
+                      </div>
+
+                    </div>
+                  <img src="image/site1.jpg">
+
+                </div>
+				
             </div>
 
         </section>

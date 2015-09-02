@@ -47,24 +47,26 @@ header #logo{width:141px; margin:0px auto 20px auto; padding-top:130px; display:
 #portfolio-bt-plus{width:63px; height:63px; position:absolute; margin:237px 0px 0px 237px;}
 #portfolio-bt-plus img{cursor:pointer;}
 #portfolio-info-text{margin-top:20px}
-#portfolio-window-background{width:100%; height:100%; opacity: 0.5; position:fixed; top: 0px; z-index: 5; background: #ffffff; display: none;}
-#portfolio-window{width:1000px; position:fixed; top: 20px; z-index: 5; display: none;}
-#portfolio-window-view{width:632px; height:300px; float:left; background:#c1c1c1; margin-left:16px;}
-#portfolio-window-info{width:300px; height:300px; margin-left:32px; float:left; background:#38474a;}
+#portfolio-window-background{width:100%; height:100%; position:fixed; top: 0px; z-index: 5; display: none; background: url("../image/background-geral.jpg");}
+#portfolio-window{width:1000px; position:fixed; top:0px; z-index: 5; display: none; overflow: auto;}
+#portfolio-window-view{width:632px; float:left; margin-left:16px; margin-top:10px; margin-bottom:10px;}
+#portfolio-window-view img{margin-bottom:50px;}
+#portfolio-window-info{width:300px; margin-left:680px; float:left; position:fixed; margin-top:10px; padding:20px 0px 20px 0px;}
+#window-info-title{width:300px; padding:20px 10px 20px 10px; background: #38474a;}
 
 
 /*      HABILIDADES     */
 
 #habilidade{width:100%; height:667px; float:left; margin-top:90px; background:#c1c1c1;background: url("../image/bg-habilidade.jpg") center no-repeat;}
 #habilidade-text{width:384px; margin:0px auto 50px auto;}
-#habilidade-text2{width:464px; margin:0px auto 50px auto;}
+#habilidade-text2{width:464px; margin:0px auto 100px auto;}
 #habilidade-box{width:464px; float:left; text-align: center;}
 #habilidade-subtitle{margin-bottom:20px;}
 
 /*    CONTATO   */
 
 #contato{width:100%; float:left;}
-#contato-text{width:464px; margin:0px auto 50px auto;}
+#contato-text{width:464px; margin:0px auto 100px auto;}
 #contato-box{width:380px; height:219px; border:3px solid #38474a; float:left; margin-left:100px; margin-bottom:100px; text-align:center;}
 #contato-box:nth-child(2n){margin-left:20px;}
 #contato-box #icon-celular{margin:40px 0px 10px 0px;}
@@ -110,5 +112,6 @@ footer{width:100%; height:200px; float:left; background:#38474a; text-align: cen
 .text-main-white-mini{font-family: MuseoSansCyrl900; font-size: 25px; color:#ffffff; text-align: center;}
 .text-main-white-mini-blue{font-family: MuseoSansCyrl900; font-size: 25px; color:#38474a; text-align: center;}
 .text-section{font-family: MuseoSansCyrl900; font-size: 30px; color:#f0c514; text-align: center;}
+.text-section-window{font-family: MuseoSansCyrl900; font-size: 20px; color:#f0c514; text-align: center;}
 .text-placeholder{font-family: MuseoSansCyrl100; font-size: 25px; color:#38474a; text-align: center;}
 .text-footer{font-family: MuseoSansCyrl100; font-size: 13px; color:#ffffff; text-align: center;}
