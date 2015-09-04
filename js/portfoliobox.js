@@ -20,15 +20,24 @@ $(document).ready(function(){
 	$("#portfolio-window").hide();
 
 	$("#portfolio-bt-plus img").click(function(){
+
+		$("#portfolio-window-view img").remove();
+
 		$("#portfolio-window-background").fadeIn(200);
 		$("#portfolio-window").fadeIn(200);
 
 		var wheight = $(window).height();
-		$("#portfolio-box").css("height", wheight);
+		$("#portfolio-window").css("height", wheight);
 
 		var titlebox = $(this).parent().parent().find("#portfolio-info-title p").text();
+		var textbox = $(this).parent().parent().find("#portfolio-info-text p").text();
+		var sitebox = $(this).parent().parent().find("#portfolio-info-site p").text();
+		var viewbox = $(this).parent().parent().find("#portfolio-info-view").html();
 
 		$("#window-info-title p").text(titlebox);
+		$("#window-info-text p").text(textbox);
+		$("#window-info-site p").text(sitebox);
+		$("#portfolio-window-view").html(viewbox);
 
 	});
 

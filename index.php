@@ -86,20 +86,25 @@
             <div id="portfolio-window">
 
                 <div id="portfolio-window-view">
-                    <img src="image/site-teste.jpg">
-                    <img src="image/site-teste.jpg">
+
                 </div>
 
                 <div id="portfolio-window-info">
 
                     <div id="window-info-title">
-                    <p class="text-section-window">ZOOM FESTAS</p>
+                        <p class="text-section-window"></p>
                     </div>
+
                     <br>
+
                     <div id="window-info-text">
-                    <p class="text-default-blue">WordPress . Php . MySQL . Photoshop Layout</p>
+                        <p class="text-default-blue"></p>
+                    </div>
+
                     <br>
-                    <p class="text-default-blue"><a href="" class="text-default-blue">www.festanazoom.com.br</a></p>
+
+                    <div id="window-info-site">
+                        <p class="text-default-blue"><a href="" class="text-default-blue"></a></p>
                     </div>
 
                 </div>
@@ -122,7 +127,8 @@
 					  <div class="portfolio-info">
 						<div id="portfolio-bt-plus"><img src="image/icon-plus.png"></div>
 						<div id="portfolio-info-title"><p class="text-section">VOLEYBAL</p></div>
-						<div id="portfolio-info-text"><p class="text-default">JavaScript . PHP . WordPress</p></div>
+						<div id="portfolio-info-text"><p class="text-default">JavaScript . PHP . MySQL</p></div>
+                        <div id="portfolio-info-site"><p class="text-default">www.voleibal.com.br</p></div>
 					  </div>
 
 					</div>
@@ -140,6 +146,11 @@
                         <div id="portfolio-bt-plus"><img src="image/icon-plus.png"></div>
                         <div id="portfolio-info-title"><p class="text-section">ZOOM</p></div>
                         <div id="portfolio-info-text"><p class="text-default">JavaScript . PHP . WordPress</p></div>
+                        <div id="portfolio-info-site"><p class="text-default">www.zoom.com.br</p></div>
+                        <div id="portfolio-info-view">
+                            <img src="image/site-teste.jpg">
+                            <img src="image/site-teste.jpg">
+                        </div>
                       </div>
 
                     </div>
