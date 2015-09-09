@@ -117,7 +117,9 @@
             <div class="conteiner">
 
                 <div id="section-title"><p class="text-section">PORTFÓLIO</p></div>
-				
+
+				<!-- PORTFOLIO BOX -->
+
                 <div class="portfolio-box">
 					
 					<div class="portfolio-conteiner">
@@ -135,6 +137,10 @@
                   <img src="image/site1.jpg">
 
                 </div>
+
+                <!-- END PORTFOLIO BOX -->
+
+                <!-- PORTFOLIO BOX -->
 
                 <div class="portfolio-box">
                     
@@ -158,6 +164,8 @@
 
                 </div>
 				
+                <!-- END PORTFOLIO BOX -->
+
             </div>
 
         </section>
@@ -170,7 +178,7 @@
 
                 <div id="section-title"><p class="text-section">HABILIDADES</p></div>
 
-                <div id="habilidade-text2"><p class="text-default2">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido.t</p></div>
+                <div id="habilidade-text"><p class="text-default2">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido.t</p></div>
 
                 <div id="habilidade-conteiner">
                     
@@ -178,7 +186,45 @@
 
                         <div id="habilidade-icon"><img src="image/design-icon2.png"></div>
                         <div id="habilidade-subtitle"><p class="text-main-white-mini">DESIGN</p></div>
-                        <div id="habilidade-text"><p class="text-default2">iuah fiuahf ohaod ufhaodiuhf aoduhoai uhaodi uhfaoidf ha</p></div>
+                        <div id="habilidade-grafico">
+
+                            <!-- BARRA HABILIDADE -->
+                            <div id="habilidade-barra-borda">
+                                <div id="habilidade-barra-70">
+                                    <div id="habilidade-nome"><p class="text-default-blue">Photoshop</p></div>
+                                </div>
+                            </div>
+                            <div id="habilidade-porcentagem"><p class="text-default2">70%</p></div>
+                            <!-- BARRA HABILIDADE -->
+
+                            <!-- BARRA HABILIDADE -->
+                            <div id="habilidade-barra-borda">
+                                <div id="habilidade-barra-40">
+                                    <div id="habilidade-nome"><p class="text-default-blue">Illustrator</p></div>
+                                </div>
+                            </div>
+                            <div id="habilidade-porcentagem"><p class="text-default2">40%</p></div>
+                            <!-- BARRA HABILIDADE -->
+
+                            <!-- BARRA HABILIDADE -->
+                            <div id="habilidade-barra-borda">
+                                <div id="habilidade-barra-70">
+                                    <div id="habilidade-nome"><p class="text-default-blue">Layout Website</p></div>
+                                </div>
+                            </div>
+                            <div id="habilidade-porcentagem"><p class="text-default2">70%</p></div>
+                            <!-- BARRA HABILIDADE -->
+
+                            <!-- BARRA HABILIDADE -->
+                            <div id="habilidade-barra-borda">
+                                <div id="habilidade-barra-60">
+                                    <div id="habilidade-nome"><p class="text-default-blue">Logotipo</p></div>
+                                </div>
+                            </div>
+                            <div id="habilidade-porcentagem"><p class="text-default2">60%</p></div>
+                            <!-- BARRA HABILIDADE -->
+
+                        </div>
 
                     </div>
 
@@ -186,7 +232,54 @@
 
                         <div id="habilidade-icon"><img src="image/developer-icon2.png"></div>
                         <div id="habilidade-subtitle"><p class="text-main-white-mini">PROGRAMAÇÃO</p></div>
-                        <div id="habilidade-text"><p class="text-default2">iuah fiuahf ohaod ufhaodiuhf aoduhoai uhaodi uhfaoidf ha</p></div>
+                        <div id="habilidade-grafico">
+
+                            <!-- BARRA HABILIDADE -->
+                            <div id="habilidade-barra-borda">
+                                <div id="habilidade-barra-80">
+                                    <div id="habilidade-nome"><p class="text-default-blue">HTML5 & CSS3</p></div>
+                                </div>
+                            </div>
+                            <div id="habilidade-porcentagem"><p class="text-default2">80%</p></div>
+                            <!-- BARRA HABILIDADE -->
+
+                            <!-- BARRA HABILIDADE -->
+                            <div id="habilidade-barra-borda">
+                                <div id="habilidade-barra-50">
+                                    <div id="habilidade-nome"><p class="text-default-blue">PHP</p></div>
+                                </div>
+                            </div>
+                            <div id="habilidade-porcentagem"><p class="text-default2">50%</p></div>
+                            <!-- BARRA HABILIDADE -->
+
+                            <!-- BARRA HABILIDADE -->
+                            <div id="habilidade-barra-borda">
+                                <div id="habilidade-barra-40">
+                                    <div id="habilidade-nome"><p class="text-default-blue">MySQL</p></div>
+                                </div>
+                            </div>
+                            <div id="habilidade-porcentagem"><p class="text-default2">40%</p></div>
+                            <!-- BARRA HABILIDADE -->
+
+                            <!-- BARRA HABILIDADE -->
+                            <div id="habilidade-barra-borda">
+                                <div id="habilidade-barra-60">
+                                    <div id="habilidade-nome"><p class="text-default-blue">Jquery</p></div>
+                                </div>
+                            </div>
+                            <div id="habilidade-porcentagem"><p class="text-default2">60%</p></div>
+                            <!-- BARRA HABILIDADE -->
+
+                            <!-- BARRA HABILIDADE -->
+                            <div id="habilidade-barra-borda">
+                                <div id="habilidade-barra-50">
+                                    <div id="habilidade-nome"><p class="text-default-blue">WordPress</p></div>
+                                </div>
+                            </div>
+                            <div id="habilidade-porcentagem"><p class="text-default2">50%</p></div>
+                            <!-- BARRA HABILIDADE -->
+
+                        </div>
 
                     </div>
 
