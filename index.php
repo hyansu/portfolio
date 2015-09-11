@@ -178,7 +178,7 @@
 
                 <div id="section-title"><p class="text-section">HABILIDADES</p></div>
 
-                <div id="habilidade-text"><p class="text-default2">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido.t</p></div>
+                <div id="habilidade-text"><p class="text-default2">Tenho conhecimentos necessários para criar um website do inicio ao fim, procuro estar atualizado com as tendencias do desenvolvimento web, o que garante a qualidade durante todos os processos na produção de um website.</p></div>
 
                 <div id="habilidade-conteiner">
                     
@@ -295,7 +295,7 @@
 
                 <div id="section-title"><p class="text-section">CONTATO</p></div>
 
-                <div id="contato-text"><p class="text-default-blue">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor.</div>
+                <div id="contato-text"><p class="text-default-blue">Me ligue ou envie um e-mail para sanar a sua duvida, seja de orçamento ou para conhecer o meu trabalho. Fazer novos contatos abre novas oportunidades.</div>
 
                 <div id="contato-box">
 
