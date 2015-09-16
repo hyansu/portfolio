@@ -307,7 +307,7 @@
                 <div id="contato-box">
 
                     <img src="image/email-icon.png" id="icon-email">
-                    <p class="text-main-white-mini-blue">rafadexter@gmail.com</p>
+                    <p class="text-main-white-mini-blue">rafaelimaweb@gmail.com</p>
 
                 </div>
 
