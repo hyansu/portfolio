@@ -14,7 +14,8 @@ body{background: url("../image/background-geral.jpg") center no-repeat fixed;}
 
 nav{width:100px; height: 32px; position:fixed; background: #38474a; text-align: center; margin:10px 0px 0px 10px; z-index: 10; overflow:hidden;}
 nav #logo-menu{margin:10px 10px 10px 10px}
-nav #icon-menu{position:absolute; width: 100px; height:12px; padding:10px 0px 10px 0px; background:#38474a; margin-top:0px; cursor:pointer;}
+nav #img-icon-menu, #img-icon-back{position:absolute; width: 100px; height:12px; padding:10px 0px 10px 0px; margin-top:0px; cursor:pointer;}
+nav #icon-menu{position:absolute; width:100px; height:32px; background:#38474a;}
 nav ul li{width:100%; height:23px; color: #ffffff;border-top: 2px solid #38474a;}
 nav ul li:hover{background:#f0c514; color:#38474a; border-top: 2px solid #f29c1e;}
 nav ul li a:hover{color:#38474a;}
@@ -48,6 +49,7 @@ header #logo{width:141px; margin:0px auto 20px auto; padding-top:130px; display:
 #portfolio-bt-plus img{cursor:pointer;}
 #portfolio-info-text{margin-top:20px}
 #portfolio-info-site{display:none;}
+#portfolio-info-subtext{display:none;}
 #portfolio-info-view{display:none;}
 #portfolio-window-background{width:100%; height:100%; position:fixed; top: 0px; z-index: 5; display: none; background: url("../image/background-geral.jpg");}
 #portfolio-window{width:1000px; position:fixed; top:0px; z-index: 5; display: none; overflow: auto;}

@@ -29,7 +29,11 @@
 
             <nav>
 
-                <div id="icon-menu"><img src="image/icon-manu.png"></div>
+                <div id="icon-menu">
+                    <div id="img-icon-menu"><img src="image/icon-manu.png"></div>
+                    <div id="img-icon-back"><img src="image/icon-back.png" ></div>               
+                </div>
+
                 <a href="#index" id="bttopheader"><img src="image/logo-rafaelima-mini.png" id="logo-menu"></a>
                 <ul>
                     <li><a href="#portfolio" class="text-menu" id="btportfolio">PORTFÓLIO</a></li>
@@ -95,16 +99,22 @@
                         <p class="text-section-window"></p>
                     </div>
 
-                    <br>
+                    <br><br>
 
                     <div id="window-info-text">
                         <p class="text-default-blue"></p>
                     </div>
 
-                    <br>
+                    <br><br>
+
+                    <div id="window-info-subtext">
+                        <p class="text-default-blue"></p>
+                    </div>
+                    
+                    <br><br>
 
                     <div id="window-info-site">
-                        <p class="text-default-blue"><a href="" class="text-default-blue"></a></p>
+                        <a href="" target="blank" class="text-default-blue"><p class="text-default-blue"></p></a>
                     </div>
 
                 </div>
@@ -128,13 +138,19 @@
 
 					  <div class="portfolio-info">
 						<div id="portfolio-bt-plus"><img src="image/icon-plus.png"></div>
-						<div id="portfolio-info-title"><p class="text-section">VOLEYBAL</p></div>
-						<div id="portfolio-info-text"><p class="text-default">JavaScript . PHP . MySQL</p></div>
-                        <div id="portfolio-info-site"><p class="text-default">www.voleibal.com.br</p></div>
+						<div id="portfolio-info-title"><p class="text-section">Minha Bagunça</p></div>
+						<div id="portfolio-info-text"><p class="text-default">HTML . CSS . Jquery . Layout Photoshop</p></div>
+                        <div id="portfolio-info-site"><p class="text-default">www.minhabaguncaa.blogspot.com.br</p></div>
+                        <div id="portfolio-info-subtext"><p class="text-default">Blog de entretenimento, cultura pop, filmes e games.</p></div>
+                        <div id="portfolio-info-view">
+                            <img src="image/mokup-minhabaguncaa-1.jpg">
+                            <img src="image/mokup-minhabaguncaa-2.jpg">
+                            <img src="image/mokup-minhabaguncaa-3.jpg">
+                        </div>
 					  </div>
 
 					</div>
-                  <img src="image/site1.jpg">
+                  <img src="image/site-minhabaguncaa.jpg">
 
                 </div>
 
